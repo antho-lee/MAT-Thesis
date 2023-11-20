@@ -1,7 +1,9 @@
 # MAT-Thesis
 coding for my thesis
 
-rmbr to embed link to 3*youtube 3*cloud picture  
+rmbr to embed link to 3\*youtube 3\*cloud picture  
+tutorial in ChatGPT 4 - FYP- Github
+
 <table>
   <tr>
     <td><img src="image-url-1" width="100"/></td>
