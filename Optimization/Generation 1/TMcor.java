@@ -35,10 +35,10 @@ public class TMcor {
 				loopinput[3]=input[3];
 				
 
-				int[][][] output=tree(loopinput);  //ºÜ¾Ã²Å»á»ØÀ´Ò»´Î£¬´ø×Å¸Ã(x,y,z)×éºÏµÄÈ«²¿correlation leaves
-				//ÔÚÕâÀï°ÑÈ«²¿½âÆÊ³É0ºÍ1µÄleavesËûÃÇ¶ÔÓ¦µÄvalues ¼ÓÆğÀ´
-				//¾ÍËãÍê³ÉÒ»¸öpixel µÄ¼ÆËãÁ¿
-				//´Ë²½ÖèĞè½øĞĞ k*j ´Î (=z^2)
+				int[][][] output=tree(loopinput);  //å¾ˆä¹…æ‰ä¼šå›æ¥ä¸€æ¬¡ï¼Œå¸¦ç€è¯¥(x,y,z)ç»„åˆçš„å…¨éƒ¨correlation leaves
+				//åœ¨è¿™é‡ŒæŠŠå…¨éƒ¨è§£å‰–æˆ0å’Œ1çš„leavesä»–ä»¬å¯¹åº”çš„values åŠ èµ·æ¥
+				//å°±ç®—å®Œæˆä¸€ä¸ªpixel çš„è®¡ç®—é‡
+				//æ­¤æ­¥éª¤éœ€è¿›è¡Œ k*j æ¬¡ (=z^2)
 
 
 				/*
@@ -59,7 +59,7 @@ public class TMcor {
 
 				for(int i=0;i < Math.pow(2,lastlevel-1) ;i++) {
 					// in order to sum up the amount of "base" correlation which the values are easily known.  
-					// ×¢ÊÍĞ´ÔÚfunction ÉÏÃæ£¬ (summarize)
+					// æ³¨é‡Šå†™åœ¨function ä¸Šé¢ï¼Œ (summarize)
 					int sum = output[1][i][lastlevel-1]
 							 +output[2][i][lastlevel-1]
 							 +output[3][i][lastlevel-1];
@@ -80,7 +80,7 @@ public class TMcor {
 
 					// 3rd ver
 					sum %= 2;
-					calc[sum] +=  output[0][i][lastlevel-1]; //½«¶ÔÓ¦µÄÊıÖµ¼Ó½øËûµÄfamily
+					calc[sum] +=  output[0][i][lastlevel-1]; //å°†å¯¹åº”çš„æ•°å€¼åŠ è¿›ä»–çš„family
 
 				}
 				
@@ -129,7 +129,7 @@ public class TMcor {
 	
 	//The output of tree is [sign,x,y,z][horizontal level][vertical level]
 	public static int[][][] tree (int[] root){
-		// ÊÔÊÔ¿´ÄÜÓÃ global µÄÂğ
+		// è¯•è¯•çœ‹èƒ½ç”¨ global çš„å—
 		int levels=1+(int) Math.ceil(Math.log ((double) root[3])/Math.log(2));
 		// int levels = 11;
 		
@@ -145,8 +145,8 @@ public class TMcor {
 				int[] temp1= new int[4];
 				int[][] temp2= new int[4][2];
 				
-				// ÎªÁËÊ¡µô ÓÃloops À´assign£¬
-				for(int i=0;i<4;i++) // Òª»»Õû¸ö programme µÄarchitecture£¬£¨array dimension µÄË³Ğò)
+				// ä¸ºäº†çœæ‰ ç”¨loops æ¥assignï¼Œ
+				for(int i=0;i<4;i++) // è¦æ¢æ•´ä¸ª programme çš„architectureï¼Œï¼ˆarray dimension çš„é¡ºåº)
 					temp1[i]=x[i][j][ell-1];
 				
 				temp2=recursion(temp1);
