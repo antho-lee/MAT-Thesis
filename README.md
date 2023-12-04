@@ -1,7 +1,7 @@
 # MAT-Thesis
-coding for my thesis
+This GitHub page is to store the coding for my thesis
 
-You mauy also browse the OneDrive folder below for more abstract art generated:
+You may also browse the OneDrive folder below for more abstract art generated:
 
 [OneDrive Folder](https://xmueducn-my.sharepoint.com/:i:/g/personal/mat2104375_xmu_edu_my/EfVtpZldeoxKjDmruUE_XAYBiRciiM0zPKz71XaOCk0_jw?e=0V2hZD)
 
