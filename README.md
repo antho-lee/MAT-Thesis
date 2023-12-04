@@ -6,7 +6,7 @@ tutorial in ChatGPT 4 - FYP- Github
 
 <table>
   <tr>
-    <td><img src="image-url-1" width="100"/></td>
+    <td><img src="[image-url-1](https://xmueducn-my.sharepoint.com/:i:/g/personal/mat2104375_xmu_edu_my/EfVtpZldeoxKjDmruUE_XAYBjNvECDCLmOADv1h2cec0nA?e=3GUWQz)" width="100"/></td>
     <td><img src="image-url-2" width="100"/></td>
   </tr>
   <tr>
