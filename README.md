@@ -15,4 +15,6 @@ tutorial in ChatGPT 4 - FYP- Github
   </tr>
 </table>
 
-[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[![Watch the video](https://img.youtube.com/vi/XSmTy2IxJIA&list=PLDHfbqFKlnrUc6ZAtzru1m2E_QhJq_09n/maxresdefault.jpg)](https://www.youtube.com/watch?v=XSmTy2IxJIA&list=PLDHfbqFKlnrUc6ZAtzru1m2E_QhJq_09n)
+
+https://www.youtube.com/watch?v=XSmTy2IxJIA&list=PLDHfbqFKlnrUc6ZAtzru1m2E_QhJq_09n
